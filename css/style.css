@@ -19,7 +19,12 @@ body {
 
 #contact {
   color: white !important ;
-  background-color: #999;
+  background-color: rgba(63, 60, 60, 0.346);
+}
+
+input,
+textarea {
+  background-color: rgba(168, 164, 164, 0.777) !important;
 }
 
 textarea::placeholder,
@@ -75,12 +80,36 @@ img {
 }
 
 .hero {
-  background-image: url(../img/hello2.jpg);
+  background-image: url(../img/justice2.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   z-index: 2;
+
+  animation: breath 50s linear infinite;
+}
+.swear {
+  background-image: url(../img/justice.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+
+  animation: breath 50s linear infinite;
+}
+
+@keyframes breath {
+  0% {
+    background-size: 100% auto;
+  }
+  50% {
+    background-size: 140% auto;
+  }
+  100% {
+    background-size: 100% auto;
+  }
 }
 
 .hero::after {
@@ -90,8 +119,8 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(21, 20, 51, 0.8);
-  z-index: -1;
+  background-color: rgba(138, 138, 214, 0.37);
+  z-index: -10;
 }
 
 section {
