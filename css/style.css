@@ -17,6 +17,17 @@ body {
   margin: 0 auto; */
 }
 
+#contact {
+  color: white !important ;
+  background-color: #999;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: white !important;
+  opacity: 1;
+}
+
 h1,
 h2,
 h3,
