@@ -307,6 +307,10 @@ form .form-control {
   color: var(--body);
 }
 
+#footer-top {
+  background-color: #000 !important;
+}
+
 .footer-top a:hover {
   color: var(--white);
 }
