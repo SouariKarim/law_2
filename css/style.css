@@ -108,6 +108,7 @@ img {
   background-attachment: fixed;
   position: relative;
   z-index: 2;
+  margin-top: 5rem;
 
   animation: breath 50s linear infinite;
 }
