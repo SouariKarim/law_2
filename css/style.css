@@ -73,6 +73,10 @@ img {
   color: var(--primary) !important;
 }
 
+.nav-toggler {
+  outline: none !important;
+}
+
 .btn {
   padding: 14px 18px;
   border-width: 2px;
