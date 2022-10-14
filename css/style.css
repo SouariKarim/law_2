@@ -9,6 +9,7 @@
 }
 
 body {
+  /* get the font from the web */
   font-family: 'Sora', sans-serif;
   line-height: 1.7;
   color: var(--body);
@@ -180,6 +181,10 @@ section {
   position: relative;
   z-index: 2;
   overflow: hidden;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .service::after {
@@ -211,9 +216,10 @@ section {
 }
 
 .col-img {
-  background-image: url(../img/cover2.jpg);
+  background-image: url('../yassine.jpg');
   background-position: center;
-  background-size: cover;
+  /* background-size: ; */
+  background-repeat: no-repeat;
   min-height: 500px;
 }
 
@@ -318,4 +324,15 @@ form .form-control {
 
 .footer-bottom {
   background-color: #242933;
+}
+
+/* make the first letter of a  p big */
+.first-letter-p::first-letter {
+  font-size: 2rem;
+  /* font-weight: bold; */
+  line-height: 0.75;
+}
+
+p {
+  text-align: justify;
 }

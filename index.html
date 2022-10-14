@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/boxicons.min.css" />
+    <!-- in case of use any type of animation . eg : animate__animated animate__fadeOutUp -->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -27,10 +27,10 @@
 
   <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg py-3 sticky-top bg-white" id="mynav">
+    <nav class="navbar navbar-expand-lg sticky-top bg-white" id="mynav">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img class="logo" src="./img/logolawyer.png" alt="" />
+          <img class="logo" src="./logooriginal.png" alt="" />
         </a>
         <button
           id="navbar-toggler"
@@ -77,18 +77,20 @@
     </nav>
     <!-- //NAVBAR -->
 
+   
+
     <!-- HERO -->
     <div class="hero vh-100 d-flex flex-row align-items-center" id="home">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-left">
-            <h1 style='font-weight : bold ' class="display-3 text-white">Besoin d'un avocat ?</h1>
+            <h1 style='font-weight : bold ' class="display-3 text-white  ">Besoin d'un avocat ?</h1>
             <h3 class="text-white my-3">
               Notre objectif : DEFENDRE vos droits.
             </h3>
-            <p class="text-white">
-              Maitre AKERMI est au service de ses clients pour les conseiller et
-              les defendre.
+            
+            <p class="text-white first-letter-p " >
+              La société Arabe Africaine d’avocats est un cabinet d’avocats d’affaires comprenant une équipe s’avocat et juridique qui défendent ensemble une idée commune de la profession orientée notamment vers la qualité de travail, la combativité, la confiance et l’éthique.
             </p>
             <br />
             <h6 class='contact text-light' > <i style ="color : #fff" class="fa-solid fa-phone"></i> &nbsp; <a id='telnumber'href='tel:+21698000000'>Tel : +126 98 000 000</a></h6>
@@ -99,6 +101,40 @@
       </div>
     </div>
     <!-- //HERO -->
+
+    <!-- about -->
+    <section class="row w-100 py-0 bg-light" id="home">
+ 
+      <div style='padding-top: 3rem' class=" ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 offset-md-1">
+          
+              <h1 class="text-center" >La Société Arabe Africaine d’Avocats </h1>
+              <p>
+                La société Arabe Africaine d’avocats a acquis dans ses domaines de compétence une expérience avérée complétée par une notoriété reconnue dans plusieurs secteurs économiques.	
+              </p>
+              <p>
+                L’organisation des équipes, souple, réactive et modulable, a été réfléchie afin que les interventions du Cabinet s’adaptent parfaitement aux demandes et permettent un échange permanent contribuant à une relation efficace, de confiance, entre l’Avocat et son client	
+              </p>
+              <p>  
+                La société Arabe Africaine d’avocats applique des méthodes de travail rigoureuses qui garantissent des prestations du meilleur niveau, sécurisées, rapides et opérationnelles dans un monde économique difficile et en constante évolution.	
+              </p>
+              <p>
+                Tous les avocats et juristes du Cabinet, ainsi que le personnel administratif, sont sensibilisés à la connaissance du monde de l'entreprise, aux conseils aux dirigeants, à l'approche transversale du traitement des risques et des conflits, à l'éthique et à la qualité.	
+              </p>
+              <p>
+                La société Arabe Africaine d’avocats a aussi mis en place des outils de gestion et d’administration efficaces, tant sur le plan humain que technique, qui permettent à ses équipes de se consacrer exclusivement à leur travail dans un cadre et une ambiance agréables, nécessaires aussi à la production de prestations performantes.
+                
+              </p>
+        
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // about -->
 
     <!-- SERVICES -->
     <section id="services">
@@ -111,91 +147,177 @@
               DES ANNEES D'EXPERIENCE A VOTRE SERVICE.
             </h2>
             <p>
-              Nous sommes au service de notre clientèle depuis 1990 et pouvons
+              Nous sommes au service de notre clientèle depuis 1999 et pouvons
               vous assister dans les domaines suivants :
             </p>
           </div>
         </div>
         <div class="row g-4">
-          <div class="col-lg-4 col-sm-6">
-            <div class="service card-effect bounceInUp">
-              <div class="iconbox">
-                <i class="fa fa-building" aria-hidden="true"></i>
+          <!-- droit immobilier -->
+          <div class="col-lg-4 col-sm-6 ">
+            <div class="service card-effect">
+              <div>
+                <div class="iconbox">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Droit Immobilier</h5>
+                <p>
+                  Le droit immobilier est composé de règles spécifiques et applicables à tous les types de biens immobiliers.
+                </p>
               </div>
-              <h5 class="mt-4 mb-2">Droit Immobilier</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
-              </p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Voir Plus...
+              </button>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <!-- droit du travail -->
+          <div class="col-lg-4 col-sm-6 ">
             <div class="service card-effect">
+              <div>
+                <div class="iconbox">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Droit du Travail</h5>
+                <p>
+                  Le Droit du travail englobe l'ensemble des relations entre employeurs et salariés.
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Voir Plus...
+              </button>
+            </div>
+          </div>
+          <!-- droit des affaires -->
+          <div class="col-lg-4 col-sm-6 ">
+            <div class="service card-effect">
+              <div>
+                <div class="iconbox">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Droit des Affaires</h5>
+                <p>
+                  En tant qu’expert dans les méandres de la justice, votre avocat en droit des affaires chez la société Arabe Africaine d’Avocats  intervient notamment dans...
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Voir Plus...
+              </button>
+            </div>
+          </div>
+
+            <!-- droit de la famille et des personnes -->
+          <div class="col-lg-4 col-sm-6 ">
+            <div class="service card-effect">
+              <div>
+                <div class="iconbox">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Droit de la Famille et des Personnes</h5>
+                <p>
+                  La diversité des situations familiales et personnelles nécessite une expertise et une appréhension globale des enjeux humains...
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Voir Plus...
+              </button>
+            </div>
+          </div>
+
+          <!-- droit penal -->
+          <div class="col-lg-4 col-sm-6 ">
+          <div class="service card-effect">
+            <div>
               <div class="iconbox">
                 <i class="fa fa-briefcase" aria-hidden="true"></i>
               </div>
-              <h5 class="mt-4 mb-2">Droit du travail</h5>
+              <h5 class="mt-4 mb-2">Droit Pénal</h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
+                Maître Yassine AKREMI  vous conseille, vous assiste et défend vos intérêts à tous les stades de la procédure pénale... 
               </p>
             </div>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              Voir Plus...
+            </button>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          </div>
+
+            <!-- droit maritime -->
+          <div class="col-lg-4 col-sm-6 ">
             <div class="service card-effect">
-              <div class="iconbox">
-                <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+              <div>
+                <div class="iconbox">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Droit Maritime</h5>
+                <p>
+                  La société Arabe Africaine d’avocats intervient principalement en contentieux pour le compte d’entreprises maritimes et d’armateurs de navires de commerce... 
+                </p>
               </div>
-              <h5 class="mt-4 mb-2">Droit des affaires</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
-              </p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Voir Plus...
+              </button>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+
+            <!-- Proprieté litteraire et artistique -->
+          <div class="col-lg-4 col-sm-6 ">
+          <div class="service card-effect">
+            <div>
+              <div class="iconbox">
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+              </div>
+              <h5 class="mt-4 mb-2">Droit Littéraire et Artistique</h5>
+              <p>
+                Le droit de la propriété littéraire et artistique permet de protéger les créations originales de littérature et d’art... 
+              </p>
+            </div>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              Voir Plus...
+            </button>
+          </div>
+          </div>
+
+          <!-- Proprieté industrielle -->
+          <div class="col-lg-4 col-sm-6 ">
             <div class="service card-effect">
-              <div class="iconbox">
-                <i class="fa fa-tasks" aria-hidden="true"></i>
+              <div>
+                <div class="iconbox">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Droit Industrielle</h5>
+                <p>
+                  Cela a pour objet la protection et la valorisation des inventions, des innovations et des créations industrielles ou commerciales... 
+                </p>
               </div>
-              <h5 class="mt-4 mb-2">Droit Fiscal</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
-              </p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                Voir Plus...
+              </button>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="service card-effect">
+
+          <!-- recouvrement des creances et voies d'execution -->
+          <div class="col-lg-4 col-sm-6 ">
+          <div class="service card-effect">
+            <div>
               <div class="iconbox">
-                <i class="fa fa-users" aria-hidden="true"></i>
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
               </div>
-              <h5 class="mt-4 mb-2">Droit de la Famille</h5>
+              <h5 class="mt-4 mb-2">Recouvrement des créances et voies d'exécution </h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
+                Notre cabinet vous accompagne durant toutes les étapes de recouvrement de vos créances et ce par le biais d’une groupe d’huissiers notaires. 
               </p>
             </div>
+          
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="service card-effect">
-              <div class="iconbox">
-                <i class="fa fa-balance-scale" aria-hidden="true"></i>
-              </div>
-              <h5 class="mt-4 mb-2">Droit Penal</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-                perspiciatis illo asperiores perferendis
-              </p>
-            </div>
           </div>
+
         </div>
       </div>
     </section>
     <!-- SERVICES -->
 
     <!-- QUI SOMME NOUS -->
-    <section class="row w-100 py-0 bg-light" id="features">
+    <section class="row w-100 py-0 bg-light" style="margin : 0 15px ; padding : 0 15px"  id="features">
  
       <div class="col-lg-6 col-img"></div>
       <div style='padding-top: 12rem' class="col-lg-6 ">
@@ -203,11 +325,18 @@
           <div class="row">
             <div class="col-md-10 offset-md-1">
               <h6 class="text-primary">POURQUOI NOUS CHOISIR ?</h6>
-              <h1>Maitre AKERMI Yassine :</h1>
+              <h1>La Société Arabe Africaine d’Avocats
+                Représentée par Maître Yassine AKREMI
+                :</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur nisi necessitatibus
-                repellat distinctio eveniet eaque fuga in cumque optio
-                consectetur harum vitae debitis sapiente praesentium aperiam aut
+                Diplômé en droit privé à la faculté de droit et des sciences politiques de Tunis, Maître Yassine AKREMI  est avocat depuis 1999 et  fondateur de la Société Arabe Africaine d’Avocats.
+              </p>
+                <p>
+                Depuis plus de 23 ans, Maître Yassine AKREMI  propose des conseils juridiques de haute qualité, avec une recherche constante de solutions novatrices.
+                Au fil des années, la société Arabe Africaine d’Avocats a acquis une réputation enviable  et est reconnu pour ses solides compétences aussi bien sa large expérience. 
+              </p>
+              <p>Le cabinet représente fièrement ses clients de toutes les classes et de tous les secteurs. Le cabinet possède toutes les compétences dont il a besoin pour bien comprendre les différents enjeux  et est en mesure de répondre aux différentes demandes de ses clients.
+                
               </p>         
               </div>
             </div>
@@ -261,7 +390,7 @@
           </div>
         </div>
 
-        <form action="" class="row g-3 justify-content-center">
+        <form action="handleSubmit" class="row g-3 justify-content-center">
           <div class="col-md-5">
             <input type="text" class="form-control" placeholder="Full Name" />
           </div>
@@ -363,6 +492,52 @@
     </footer>
         <!-- FOOTER -->
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- modals -->
+
+        <!-- droit immobilier modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Droit Immobilier</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Le droit immobilier est composé de règles spécifiques et applicables à tous les types de biens immobiliers. Il est appliqué dans le cadre d’une location, dans le cadre de troubles de voisinage, dans le domaine de la construction, dans les procédures d’achat et de vente, pour la sous-location, ou encore pour la copropriété. Les problématiques prises en charge par votre cabinet d’avocats  concernent les points essentiels de ce domaine du droit. Maître Yassine Akremi s’occupe des dossiers liés à divers éléments :
+                Droit de la construction
+                Droit de la copropriété
+                Contentieux de ventes immobilières
+                Arriérés de loyer
+                Démarches de renouvellement ou de cession de baux commerciaux et des fonds de commerce
+                Élaboration de baux d’habitation et commerciaux
+                Responsabilité du syndic
+                              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary p-0 btn-sm" data-dismiss="modal">Close</button>
+             
+            </div>
+          </div>
+        </div>
+        <!-- //droit immobilier modal -->
+
+        <!-- //modals -->
+
+      
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+      </script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+      </script>
+
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <!-- <script src="./js/bootstrap.min.js" ></script> -->
+    <script src="./script.js"></script>
   </body>
 </html>
