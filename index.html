@@ -25,8 +25,8 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg sticky-top bg-white" id="mynav">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img class="logo" src="./img/logo.png" alt="" />
+        <a class="navbar-brand" href="#home">
+          <img class="logo" src="./img/lgonobg.png" alt="" />
         </a>
         <button
           id="navbar-toggler"
@@ -56,13 +56,13 @@
               <a class="nav-link link-dark" href="#services">SERVICES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-dark" href="#contact">PRENDRE RDV</a>
+              <a class="nav-link link-dark" href="#about">QUI SOMME NOUS ?</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link link-dark" href="#features"
                 >QUI SOMME NOUS ?</a
               >
-            </li>
+            </li> -->
 
             <li class="nav-item">
               <a class="nav-link link-dark" href="#contact">CONTACT</a>
@@ -72,8 +72,6 @@
       </div>
     </nav>
     <!-- //NAVBAR -->
-
-   
 
     <!-- HERO -->
     <div class="hero vh-100 d-flex flex-row align-items-center" id="home">
@@ -99,7 +97,7 @@
     <!-- //HERO -->
 
     <!-- about -->
-    <section class="row w-100 py-0 bg-light" id="home">
+    <section id="home" class="row w-100 py-0 bg-light" >
  
       <div style='padding-top: 3rem' class=" ">
         <div class="container">
@@ -164,9 +162,10 @@
                   Le droit immobilier est composé de règles spécifiques et applicables à tous les types de biens immobiliers...
                 </p>
               </div>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#immobilier">
                 Savoir Plus...
               </button>
+             
             </div>
           </div>
           <!-- droit du travail -->
@@ -181,9 +180,11 @@
                   Le Droit du travail englobe l'ensemble des relations entre employeurs et salariés...
                 </p>
               </div>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#travail">
                 Savoir Plus...
               </button>
+
+             
             </div>
           </div>
           <!-- droit des affaires -->
@@ -198,7 +199,7 @@
                   En tant qu’expert dans les méandres de la justice, votre avocat en droit des affaires chez la société Arabe Africaine d’Avocats  intervient notamment dans...
                 </p>
               </div>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#affaire">
                 Savoir Plus...
               </button>
             </div>
@@ -216,7 +217,7 @@
                   La diversité des situations familiales et personnelles nécessite une expertise et une appréhension globale des enjeux humains...
                 </p>
               </div>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#famille">
                 Savoir Plus...
               </button>
             </div>
@@ -234,7 +235,7 @@
                 Maître Yassine AKREMI  vous conseille, vous assiste et défend vos intérêts à tous les stades de la procédure pénale... 
               </p>
             </div>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#penal">
               Savoir Plus...
             </button>
           </div>
@@ -252,7 +253,7 @@
                   La société Arabe Africaine d’avocats intervient en contentieux pour le compte d’entreprises maritimes... 
                 </p>
               </div>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#maritime">
                 Savoir Plus...
               </button>
             </div>
@@ -260,19 +261,19 @@
 
             <!-- Proprieté litteraire et artistique -->
           <div class="col-lg-4 col-sm-6 ">
-          <div class="service card-effect">
-            <div>
-              <div class="iconbox">
-                <i class="fas fa-pencil"></i>            </div>
-              <h5 class="mt-4 mb-2">Droit Littéraire et Artistique</h5>
-              <p>
-                Le droit de la propriété littéraire et artistique permet de protéger les créations originales de littérature et d’art... 
-              </p>
+            <div class="service card-effect">
+              <div>
+                <div class="iconbox">
+                  <i class="fas fa-pencil"></i>            </div>
+                <h5 class="mt-4 mb-2">Droit Littéraire et Artistique</h5>
+                <p>
+                  Le droit de la propriété littéraire et artistique permet de protéger les créations originales de littérature et d’art... 
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#artistique">
+                Savoir Plus...
+              </button>
             </div>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-              Savoir Plus...
-            </button>
-          </div>
           </div>
 
           <!-- Proprieté industrielle -->
@@ -287,7 +288,7 @@
                   Cela a pour objet la protection et la valorisation des inventions et des créations industrielles ou commerciales... 
                 </p>
               </div>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#industrielle">
                 Savoir Plus...
               </button>
             </div>
@@ -295,18 +296,18 @@
 
           <!-- recouvrement des creances et voies d'execution -->
           <div class="col-lg-4 col-sm-6 ">
-          <div class="service card-effect">
-            <div>
-              <div class="iconbox">
-                <i class="fa fa-check-square" aria-hidden="true"></i>
+            <div class="service card-effect">
+              <div>
+                <div class="iconbox">
+                  <i class="fa fa-check-square" aria-hidden="true"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Recouvrement des créances et voies d'exécution </h5>
+                <p>
+                  Notre cabinet vous accompagne durant toutes les étapes de recouvrement de vos créances et ce par le biais d’une groupe d’huissiers notaires. 
+                </p>
               </div>
-              <h5 class="mt-4 mb-2">Recouvrement des créances et voies d'exécution </h5>
-              <p>
-                Notre cabinet vous accompagne durant toutes les étapes de recouvrement de vos créances et ce par le biais d’une groupe d’huissiers notaires. 
-              </p>
+            
             </div>
-          
-          </div>
           </div>
 
         </div>
@@ -315,10 +316,10 @@
     <!-- SERVICES -->
 
     <!-- QUI SOMME NOUS -->
-    <section class="row w-100 py-0 bg-light" style="margin : 0; padding : 0 15px"  id="features">
+    <section class="row w-100 py-0 bg-light" style="margin : 0; padding : 0 15px"  id="about">
  
       <div class="col-lg-6 col-img"></div>
-      <div style='padding-top: 12rem' class="col-lg-6 ">
+      <div style='padding-top: 3rem ; text-align : center' class="col-lg-6 ">
         <div class="container">
           <div class="row">
             <div class="col-md-10 offset-md-1">
@@ -345,7 +346,7 @@
     <!-- QUI SOMME NOUS -->
 
     <!-- SWEAR -->
-    <div class="swear vh-100 d-flex align-items-center" id="home">
+    <div class="swear vh-100 d-flex align-items-center" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-7 mx-auto text-center">
@@ -359,7 +360,7 @@
     <!-- //SWEAR -->
 
     <!-- GOOGLE MAPS -->
-    <section id="blog" class="bg-light">
+    <section id="contact" class="bg-light">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-8 mx-auto text-center">
@@ -368,7 +369,7 @@
           </div>
         </div>
         <div class="row g-4">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204479.33048312512!2d10.003534760819003!3d36.79480121375501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd337f5e7ef543%3A0xd671924e714a0275!2sTunis!5e0!3m2!1sfr!2stn!4v1662915565726!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2685.872455361635!2d10.175795162326434!3d36.817114859540055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd35abf8909bcd%3A0xdaeb3264961d95cd!2sArab%20African%20Avocat!5e0!3m2!1sfr!2stn!4v1665783711669!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>
@@ -444,24 +445,21 @@
     <!-- CONTACT -->
 
         <!-- FOOTER -->
-    <footer>
+    <footer id="contact" >
       <div id="footer-top" class="footer-top">
         <div class="container">
           <div class="row gy-4">
-            <div class="col-lg-3">
-              <img class="logo" src="./img/logolawyerdark2.png" alt="" />
-            </div>
+            
             <div class="col-lg-3">
               <h5 class="text-white">MAP</h5>
               <ul class="list-unstyled">
-                <li><a href="#acceuil">Acceuil</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">PRENDRE RDV</a></li>
-                <li><a href="#">Qui somme nous ?</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#homme">Acceuil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">Qui somme nous ?</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-6">
               <h5 class="text-white">Adresse</h5>
               <ul class="list-unstyled">
                 <li>Résidence Argentina, 2 ETG, 2 bis rue de l’argentine 
@@ -504,7 +502,7 @@
         <!-- modals -->
 
         <!-- droit immobilier modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal fade" id="immobilier" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -521,15 +519,190 @@
                 Arriérés de loyer
                 Démarches de renouvellement ou de cession de baux commerciaux et des fonds de commerce
                 Élaboration de baux d’habitation et commerciaux
-                Responsabilité du syndic
+                Responsabilité du syndic.
                               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary p-0 btn-sm" data-dismiss="modal">Close</button>
-             
-            </div>
+              
+              </div>
           </div>
         </div>
         <!-- //droit immobilier modal -->
+
+
+
+        <!-- droit travail modal -->
+        <div class="modal fade" id="travail" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Droit de Travail</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Le Droit du travail englobe l'ensemble des relations entre employeurs et salariés.
+                contrats de travail, procédures disciplinaires, procédures de licenciement pour motif  personnel ou économique, élections et vie des institutions représentatives du personnel, aménagement de la durée du travail, statut social des dirigeants, accords d’entreprises, volet social du transfert d’entreprise,  audits et consultations juridiques diverses (analyse de situations, études de projets, élaboration de solutions spécifiques), évaluations des risques judiciaires, prévention et solution amiable des litiges.
+                Il concerne aussi bien vos droits que vos obligations.
+
+                En cas de contentieux, il est important de se tourner vers un avocat pour vérifier vos droits et vous protéger.
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!-- //droit travaoil modal -->
+
+        <!-- droit affaire modal -->
+        <div class="modal fade" id="affaire" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Droit des Affaire</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                En tant qu’expert dans les méandres de la justice, votre avocat en droit des affaires chez la société Arabe Africaine d’Avocats  intervient notamment dans :
+                  •	 la création de sociétés tunisiennes ou étrangères, partiellement ou totalement exportatrices.
+                  •	 La Constitution, modifications des statuts de sociétés et leur suivi juridique Rédaction d'actes : vente, cession, location (immeubles, fonds de commerce..) 
+                  •	Une large expérience en matière de société en difficulté régie par la loi des procédures collective promulgue en 2016  
+                  •	Droit commercial: contrats commerciaux, recouvrement de créances commerciales (mise en demeure, injonction de payer, opposition, référé-provision), litiges commerciaux devant les Tribunaux, expertise judiciaire, baux commerciaux… 
+                  •	Aussi bien dans l’Arbitrage interne et international
+                  Pour faire valoir pleinement les droits de ses clients et les représenter devant les juridictions compétentes. Maître Yassine AKREMI  étudie et développe la stratégie la mieux adaptée à la situation de votre entreprise.
+                  Il vous prodigue des conseils avisés pour vous prémunir des différentes situations épineuses pouvant advenir à tout moment pour entraver la bonne marche de votre société. Grâce à sa solide expertise, votre avocat en droit des affaires vous vient en aide pour garantir le développement de votre stratégie commerciale.
+
+
+                              </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //droit affaire modal -->
+
+        
+        <!-- droit famille modal -->
+        <div class="modal fade" id="famille" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Droit de la Famille et des Personnes</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                La diversité des situations familiales et personnelles nécessite une expertise et une appréhension globale des enjeux humains. Lorsqu’un évènement difficile intervient en cours de mariage, en cas de rupture au sein du couple, lors d’un évènement lié aux enfants ou encore lors d’un décès d’un proche, le cabinet intervient dans l’ensemble des domaines relatifs au droit de la famille et des personnes.
+
+
+                              </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //droit famille modal -->
+
+
+        <!-- droit penal modal -->
+        <div class="modal fade" id="penal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Droit Pénal</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Maître Yassine AKREMI  vous conseille, vous assiste et défend vos intérêts à tous les stades de la procédure pénale :
+                Audition au commissariat de police ou au Parquet, interrogatoire chez le Juge d’instruction, confrontations, descente sur les lieux, reconstitution, etc.
+
+
+
+                              </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //droit penal modal -->
+
+        <!-- droit maritime modal -->
+        <div class="modal fade" id="maritime" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Droit Maritme</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                La société Arabe Africaine d’avocats intervient principalement en contentieux pour le compte d’entreprises maritimes et d’armateurs de navires de commerce.
+        
+
+
+
+
+                              </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //droit maritime modal -->
+
+        <!-- droit artistique modal -->
+        <div class="modal fade" id="artistique" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Droit Littéraire et Artistique</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Le droit de la propriété littéraire et artistique permet de protéger les créations originales de littérature et d’art, nous intervenons en cas d’actions en contrefaçon, nous mettrons tous nos compétences dans la négociation et rédaction des contrats de cession et de licence des droits d’auteur ainsi que les litiges afférents.
+
+
+
+
+                              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!-- //droit artistique modal -->
+
+        <!-- droit industrielle modal -->
+        <div class="modal fade" id="industrielle" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Droit Industrielle</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Cela a pour objet la protection et la valorisation des inventions, des innovations et des créations industrielles ou commerciales. Elle comprend notamment les brevets, les marques, les dessins et modèles industriels, ainsi que les indications géographiques
+                Nous prendrons en charge le dépôt de marque ou de brevet, la représentation auprès de l'organisme chargé de la propriété industrielle.
+                
+
+
+
+
+                              </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //droit industrielle modal -->
 
         <!-- //modals -->
 
