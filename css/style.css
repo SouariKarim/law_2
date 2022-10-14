@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
 
 :root {
-  --primary: #0d6efd;
+  --primary: #1976d2;
   --dark: #21252f;
   --body: #888;
   --white: #ffffff;
@@ -148,8 +148,8 @@ img {
 }
 
 section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .card-effect {
@@ -164,7 +164,7 @@ section {
   transform: translateY(5px);
 }
 
-.iconbox {
+.iconbox i {
   width: 54px;
   height: 54px;
   display: flex;
@@ -200,7 +200,7 @@ section {
   transition: all 0.4s ease;
 }
 
-.service:hover .iconbox {
+.service:hover .iconbox i {
   background-color: var(--white);
   color: var(--primary);
 }
@@ -278,7 +278,7 @@ section {
   height: 34px;
   background-color: var(--primary);
   border-radius: 2px solid var(--primary);
-  color: var(--white);
+  color: #fff !important ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,7 +291,7 @@ section {
 .social-icons a:hover {
   color: var(--primary);
   background-color: transparent;
-  border-color: var(--primarys);
+  border-color: var(--primary);
 }
 
 form input.form-control {
@@ -305,8 +305,8 @@ form .form-control {
 }
 
 .footer-top {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--dark);
 }
 
