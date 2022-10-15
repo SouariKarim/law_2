@@ -336,3 +336,9 @@ form .form-control {
 p {
   text-align: left;
 }
+
+section#home,
+section#about,
+section#contact {
+  padding: 0;
+}
