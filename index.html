@@ -408,19 +408,21 @@
                 <p>
                   Un décompte détaillé est adressé au client en fin de dossier et des provisions sont sollicitées au fur et à mesure du déroulement de nos interventions.
                 </p>
+                <p> <i class="fas fa-map-pin" style="color : red ; font-size : 30px" ></i>  Adresse : Résidence Argentina, 2 ETG, 2 bis rue de l’argentine 
+                  1002 Le belvédère Tunis.
+                </p> 
 
               </div>
             </div>
 
-            <form action="handleSubmit" class="row g-3 justify-content-center">
-              <!-- <p> <i class="fas fa-map-pin"></i>  Adresse : Résidence Argentina, 2 ETG, 2 bis rue de l’argentine 
-                1002 Le belvédère Tunis.
-                </p> -->
+             <form action="https://formspree.io/f/xoqbnaok" method="POST" class="row g-3 justify-content-center">
+             
               <div class="col-md-5">
-                <input type="text" class="form-control" placeholder="Full Name" />
+                <input name="name" type="text" class="form-control" placeholder="Full Name" />
               </div>
               <div class="col-md-5">
                 <input
+                name="email"
                   type="text"
                   class="form-control"
                   placeholder="Enter E-mail"
@@ -428,6 +430,7 @@
               </div>
               <div class="col-md-10">
                 <input
+                name="subject"
                   type="text"
                   class="form-control"
                   placeholder="Enter Subject"
@@ -435,7 +438,7 @@
               </div>
               <div class="col-md-10">
                 <textarea
-                  name=""
+                  name="message"
                   id=""
                   cols="30"
                   rows="5"
@@ -444,9 +447,11 @@
                 ></textarea>
               </div>
               <div class="col-md-10 d-grid">
-                <button class="btn btn-primary">Contact</button>
+                <button class="btn btn-primary" type="submit">Contact</button>
               </div>
-            </form>
+            </form> 
+
+        
           </div>
         </section>
         <!-- CONTACT -->
